@@ -1,0 +1,65 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+   background-color: #141414;
+    font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: white;
+    min-height: 100vh;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(capa\ netflix.jfif) no-repeat center/cover;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    }
+
+    
+    
+    .logo img{
+        height:45px ;
+    }
+    .nav-actions{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #select-languages{
+        background-color: black;
+        color: white;
+        border: 1px solid gray;
+        padding: 5px 10px;
+        border-radius: 4px;
+}
+
+#btn-login{
+    background-color: #e50914;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#btn-login:hover{
+    background-color: #f40612;
+    transform: scale(1.05);
+}
+.content h1 {
+    text-align: center;
+    margin-top: 150px;
+}
+.content h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
